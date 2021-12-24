@@ -54,7 +54,7 @@
         return HttpResponse(html)
     ```
 
-+   绑定视图函数
++   配置主路由
 
     ```python
     from django.contrib import admin
