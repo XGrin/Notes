@@ -27,8 +27,8 @@ python3 manage.py startapp music
     ```python
     INSTALLED_APPS = [
         # ...
-        'user',		# 用户信息模块
-        'music',	# 音乐模块
+        'user.apps.UserConfig',		# 用户信息模块
+        'music.apps.MusicConfig',	# 音乐模块
     ]
     ```
 
